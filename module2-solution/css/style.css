@@ -136,8 +136,8 @@ span {
     width: 100%;
   }
   .row {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
