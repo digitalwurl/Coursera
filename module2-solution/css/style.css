@@ -27,7 +27,7 @@ p {
 span { 
   float: right;
   padding: 4px 36px 3px;
-  border: 1px solid;
+  border: 1px solid #000;
   background-color: gray;
   color: white;
 }
