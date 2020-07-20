@@ -17,7 +17,7 @@ p {
   font-family: Helvetica;
   color: #000;
   padding: 2%;
-  background-color: grey;
+  
 }
 
 span { 
@@ -26,6 +26,10 @@ span {
   border: 1px solid;
   background-color: gray;
   color: white;
+}
+
+.boxes {
+  background-color: grey;
 }
 
 #chicken {
