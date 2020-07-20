@@ -31,6 +31,7 @@ span {
 .boxes {
   background-color: grey;
   border: 1px solid;
+  padding-bottom: 2%;
 }
 
 #chicken {
