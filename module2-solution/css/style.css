@@ -201,6 +201,6 @@ span {
 @media (max-width: 414px) {
   .row {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 1px;
   }
 }
