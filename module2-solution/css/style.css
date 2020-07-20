@@ -76,6 +76,11 @@ span {
   .col-lg-12 {
     width: 100%;
   }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
 
 /********** Medium devices only **********/
@@ -120,5 +125,9 @@ span {
   }
   .col-md-12 {
     width: 100%;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
