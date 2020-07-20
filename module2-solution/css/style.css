@@ -17,6 +17,7 @@ p {
   font-family: Helvetica;
   color: #000;
   padding: 2%;
+  background-color: grey;
 }
 
 span { 
