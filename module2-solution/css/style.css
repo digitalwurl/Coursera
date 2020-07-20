@@ -27,6 +27,17 @@ span {
   color: white;
 }
 
+#chicken {
+  background-color: brown;
+}
+
+#beef {
+  background-color: red;
+}
+
+#suschi {
+  background-color: green;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
