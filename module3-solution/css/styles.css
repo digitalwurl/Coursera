@@ -26,6 +26,12 @@
 #text-block p {
 	color: #fff;
 }
+.navbar-default .navbar-toggle:hover {
+    background-color: #336699;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
 
 @media (min-width: 481px) and (max-width: 767px) {
     #main-content {
