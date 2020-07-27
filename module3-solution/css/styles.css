@@ -1,0 +1,42 @@
+#food-nav {
+	background-color: #0066ff;
+	border-radius: 0;
+	border: none;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+#menu {
+	text-align: center;
+}
+#menu span, #menu li a {
+	color: #fff;
+}
+#menu .active a, #menu .active span {
+	color: #000;
+}
+#text-block {
+	background-color: #0066ff;
+	border: 1px solid #0066ff;
+	border-radius: 4px;
+}
+#text-block h3 {
+	color: #fff;
+}
+#text-block p {
+	color: #fff;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #main-content {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+	#main-content {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+}
