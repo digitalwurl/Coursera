@@ -67,7 +67,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // On first load, show home view
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl, buildAndShowHomeHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
+  allCategoriesUrl, buildAndShowHomeHTML,
+   // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
@@ -119,7 +120,7 @@ function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively))
 
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
-
+  console.log(categories.length);
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
 }
